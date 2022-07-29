@@ -1,0 +1,11 @@
+# This is an example
+
+FUN greet(name)
+    VAR greet = "Hello " + name
+    RETURN greet
+END
+
+PRINT("Enter the name:")
+
+VAR person=INPUT()
+PRINT(greet(person))
